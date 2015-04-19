@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+#menu, #menu ul /* Liste */     
+
+{
+
+        padding : 0;
+        margin : 0;
+        list-style : none;
+        line-height : 190%;
+        text-align : center;
+}
+
+#menu /* Ensemble des menu */
+
+{
+
+        font-weight : bold;
+        font-family : Arial;
+
+        font-size : 1em;
+}
+
+#menu a /* Contenu des listes */
+
+{
+
+        display : block;
+        padding : 0;
+		background-image:url(europe1.jpg);
+        /* background-color: #06C; */
+        color : #0CF;
+        text-decoration : none;
+        width : 12em;
+}
+#menu a:hover
+{
+		
+		color:#fff;
+		background-image:url(europe2.jpg);
+		/* background-color:#06F; */
+}
+
+#menu li { 
+        float : left; 
+        border-right : 0.1em solid #fff;
+}
+html>body #menu li {
+
+        border-right: 0.1em solid transparent ;
+}
+
+#menu li ul /* Sous-listes */
+
+{ 
+
+        position: absolute;
+        width: 14em;
+        left: -999em;
+}
+
+#menu li ul li /* Éléments de sous-listes */ {
+
+
+
+        border-top : 0.1em solid #fff;
+}
+
+html>body #menu li ul li {
+
+        border-top : 0.1em solid transparent;
+}
+
+#menu li ul ul {
+
+        margin    : -22px 0 0 14em ;
+        border-left     : 0.1em solid #fff ;   
+
+}
+
+html>body #menu li ul ul {
+
+        border-left     : 0.1em solid transparent ;
+}

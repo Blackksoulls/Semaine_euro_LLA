@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 <link href="index.css" style="spreadsheet" type="text/css" />
@@ -8,3 +9,16 @@
 =======
 </html
 >>>>>>> branch 'master' of https://github.com/Blackksoulls/Semaine_euro_LLA.git
+=======
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link href="index.css" style="spreadsheet" type="text/css" />
+		<link href="commun.css" style="spreadsheet" type="text/css" />
+	</head>
+
+	<body>
+    
+	</body>
+</html>
+>>>>>>> branch 'blackksoulls' of https://github.com/Blackksoulls/Semaine_euro_LLA.git
